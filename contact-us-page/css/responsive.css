@@ -1,0 +1,405 @@
+@media(min-width:320px) and (max-width:575px){
+    nav img {
+        margin-top: 0px;
+        width: 40%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 16px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 8px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 13px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+
+
+  
+#contact-part .left-details {
+    margin-top: 30px;
+}
+    #contact-part .left-details .item {
+        margin-bottom: 25px;
+    }
+    #contact-part .left-details .item .icon {
+        width: 20%;
+    }
+    #contact-part .left-details .item .icon i {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 22px;
+    }
+    #contact-part .left-details .item .details {
+        width: 78%;
+    }
+    #contact-part .left-details .item .details p {
+        font-size: 16px;
+        width: 262px;
+    }
+
+
+
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 30px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 14px;
+        margin-bottom: 26px;
+    }
+    #partner-part .pertner-item img {
+        width: 100%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+    #footer-part .footer-logo img {
+        width: 33%;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    nav img {
+        margin-top: 0px;
+        width: 60%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 20px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 10px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+    #contact-part .left-details {
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 16px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 36px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 25px;
+        margin-bottom: 26px;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 15px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+
+
+    #contact-part .left-details .item .icon i {
+        width: 58px;
+        height: 58px;
+        line-height: 58px;
+        font-size: 24px;
+    }
+    #contact-part .left-details .item .details p {
+        font-size: 18px;
+        width: 275px;
+    }
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        /* background: #f5f5f5;
+        margin-bottom: 15px; */
+        padding: 0px 6px;
+        border-radius: 8px;
+        margin-top: 23px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn{
+        padding: 0;
+        margin-top: 17px;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+
+
+    #contact-part .left-details .item .icon i {
+        width: 58px;
+        height: 58px;
+        line-height: 58px;
+        font-size: 24px;
+    }
+    #contact-part .left-details .item .details p {
+        font-size: 18px;
+        width: 275px;
+    }
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part img{
+        margin-left: -12px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}

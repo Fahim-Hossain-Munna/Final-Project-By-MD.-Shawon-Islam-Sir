@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title p {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    padding: 0px 340px;
+    margin-top: 50px;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 50%;
+    background: #07baf0;
+    width: 60px;
+    height: 5px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+}
+
+/* ======================= nav bar part start ========================= */
+nav {
+    background: #fef8ff !important;
+}
+
+nav img {
+    margin-top: -55px;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 60px 25px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #848484 !important;
+    transition: .4s;
+}
+
+nav ul li:hover a {
+    color: #07baf0 !important;
+}
+
+nav .btn a {
+    padding: 13px 16px;
+    background: #07baf0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 5px;
+}
+nav .btn a:hover{
+    -webkit-box-shadow: -10px 0px 13px -7px , 10px 0px 13px -7px, -5px 3px 50px 5px rgba(7,186,240,0.46); 
+    box-shadow: -10px 0px 13px -7px , 10px 0px 13px -7px , -5px 3px 50px 5px rgba(7,186,240,0.46);
+}
+
+/* ======================= nav bar part end ========================= */
+/* ======================= jobs part start ========================= */
+
+#jobs-part {
+    width: 100%;
+    margin: 80px 0px;
+}
+
+#jobs-part .job-button {
+    background: #07baf0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+    padding: 8px 35px;
+}
+.job-input {
+	width: 100%;
+	padding: 11px 18px;
+	border: 1px solid #ced4da;
+	border-radius: 5px;
+}
+
+.jobs-details .accordion-body{
+	padding: 0px !important;
+}
+.wrapper .form1 {
+	color: #bbb;
+}
+#jobs-part .form-2 {
+    margin: 5px 0px;
+    margin-bottom: 55px;
+}
+
+#jobs-part .form-check {
+    margin-right: 20px;
+}
+
+#jobs-part .form-check .text {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+
+
+
+#jobs-part .sidebar-jobs{
+    width: 100%;
+}
+#jobs-part .sidebar-jobs .sidebar{
+    height: 100%;
+}
+
+
+
+#jobs-part .sidebar-checkbox .sidbar-margin {
+    margin-top: 30px;
+  }
+
+
+  #jobs-part .sidebar-checkbox h2 {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    margin-bottom: 35px;
+  }
+  #jobs-part .sidebar-checkbox .checkbox-1 .text {
+    color: #999 !important;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 20px;
+  }
+
+
+
+  #jobs-part .sidebar-range h2 {
+	font-size: 20px;
+	font-family: 'Arimo', sans-serif;
+	color: #222;
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+  #jobs-part .sidebar-range input {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  #jobs-part .sidebar-range output {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: #444;
+  }
+
+
+  #jobs-part .sidebar-range span {
+	font-size: 22px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	margin-right: 7px;
+	color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jobs-part .jobs-item {
+    display: flex;
+    padding: 15px;
+    background: #f5f5f5;
+    margin-bottom: 28px;
+    transition: .4s;
+}
+
+
+#jobs-part .jobs-item .profile {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    margin-right: 30px;
+}
+
+#jobs-part .jobs-item .details {
+    width: 43%;
+    align-self: center;
+}
+
+#jobs-part .jobs-item .location {
+    display: inline-block;
+	margin-left: 30px;
+
+}
+
+#jobs-part .jobs-item .amount {
+    width: 23%;
+    align-self: center;
+}
+
+#jobs-part .jobs-item .text {
+    width: 20%;
+    align-self: center;
+    text-align: right;
+}
+
+#jobs-part .jobs-item .details h5 {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    color: #07baf0;
+    transition: .4s;
+}
+
+#jobs-part .jobs-item .details p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    color: #222;
+    margin-top: -6px;
+    margin-bottom: 3px;
+    transition: .4s;
+}
+
+#jobs-part .jobs-item .details h4 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #444;
+    transition: .4s;
+    display: inline-block;
+}
+
+#jobs-part .jobs-item .location i {
+    margin-right: 8px;
+    color: #444;
+    transition: .4s;
+}
+
+#jobs-part .jobs-item .location span {
+    color: #444;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    transition: .4s;
+}
+
+#jobs-part .jobs-item .amount span {
+    color: #444;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    transition: .4s;
+}
+
+
+
+#jobs-part .jobs-middle {
+    margin-top: 50px;
+    color: #444;
+}
+
+#jobs-part .jobs-list {
+    margin-bottom: 20px;
+}
+
+#jobs-part .browse {
+    text-align: right;
+}
+
+#jobs-part .browse .job-button {
+    padding: 8px 15px !important;
+}
+
+
+#jobs-part .jobs-item:hover {
+    background: #07baf0;
+    color: #fff !important;
+  }
+  #jobs-part .jobs-item:hover .details h5,
+  #jobs-part .jobs-item:hover .details p,
+  #jobs-part .jobs-item:hover .details h4 {
+    color: #fff !important;
+  }
+
+  #jobs-part .jobs-item:hover .location i,
+  #jobs-part .jobs-item:hover span{
+      color: #fff;
+  }
+
+  #jobs-part .jobs-item:hover .text .job-button{
+      background: #fff;
+      color: #07baf0;
+  }
+
+  .job-button:hover {
+	background: #fff !important;
+	color: #07baf0 !important;
+	border: 1px solid #07baf0;
+}
+
+
+
+
+/* ======================= jobs part end ========================= */
+/* ======================= partner part start ========================= */
+
+#partner-part {
+    margin-bottom: 80px;
+}
+
+#partner-part .counter-part {
+    display: flex;
+}
+
+#partner-part .counter-part .counter-item {
+    width: 48%;
+    padding: 35px 0px;
+    text-align: center;
+    /* border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: #222;
+    position: relative;
+}
+
+.counter-part .item-border-1::after {
+	width: 2px;
+	height: 60%;
+	background: #ddd;
+	content: "";
+	position: absolute;
+}
+.counter-part .item-border-1::before {
+	width: 50%;
+	height: 2px;
+	background: #ddd;
+	content: "";
+	position: absolute;
+}
+
+.counter-part .item-border-1::after {
+    bottom: 0;
+    right: 0;
+}
+.counter-part .item-border-1::before {
+    bottom: 0;
+    right: 0;
+}
+.counter-part .item-border-4::after {
+	width: 2px;
+	height: 60%;
+	background: #ddd;
+	content: "";
+	position: absolute;
+}
+.counter-part .item-border-4::before {
+	width: 50%;
+	height: 2px;
+	background: #ddd;
+	content: "";
+	position: absolute;
+}
+.counter-part .item-border-4::after {
+    top: 0;
+    left: -2px;
+}
+.counter-part .item-border-4::before {
+    top: -2px;
+    left: 0;
+}
+
+#partner-part .counter-part .counter-item .counter-num {
+    font-size: 46px;
+}
+
+
+#partner-part .partner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#partner-part .partner:first-child {
+	margin-top: 50px;
+}
+
+#partner-part .pertner-item {
+	width: 46%;
+	border: 1px solid #ddd;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/* ======================= partner part end ========================= */
+/* ======================= footer part start ========================= */
+
+#footer-part{
+    width: 100%;
+    background: #252525;
+    /* margin-bottom: 300px; */
+}
+
+#footer-part .footer-logo{
+    text-align: center;
+    padding: 25px 0px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+#footer-part .footer-body{
+    padding: 50px 0px;
+}
+
+
+.footer-body .details{
+    color: #fff;
+}
+.footer-body .details h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 26px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .footer-body .details h2:after {
+    content: "";
+    width: 55px;
+    height: 6px;
+    background: #07baf0;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    border-radius: 20px;
+  }
+  
+  .footer-body .details p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+  }
+  
+  .footer-body .details .button a {
+	color: #07baf0 !important;
+	font-size: 20px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 600;
+    margin-top: 30px;
+}
+  .footer-body .details .button a i{
+	margin-left: 10px;
+}
+
+
+.footer-body .candi{
+    color: #fff;
+}
+.footer-body .candi h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 26px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .footer-body .candi h2:after {
+    content: "";
+    width: 55px;
+    height: 6px;
+    background: #07baf0;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    border-radius: 20px;
+  }
+  
+  .footer-body .details p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 35px;
+  }
+
+
+  
+.footer-body .candi ul {
+    padding: 0;
+    margin-top: 35px;
+  }
+  .footer-body .candi ul li {
+    font-family: 'Arimo', sans-serif;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-left: 32px;
+    transition: .4s;
+    cursor: pointer;
+  }
+  .footer-body .candi ul li:after {
+    content: "";
+    background: transparent;
+    width: 25px;
+    height: 4px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-bottom: 4px dotted #dbdbdb;
+    transition: .4s;
+  }
+
+
+  .footer-body .candi ul li:hover {
+    padding-left: 55px;
+  }
+  .footer-body .candi ul li:hover::after {
+    width: 47px;
+  }
+
+  .footer-body .details form {
+    position: relative;
+    margin: 30px 0px;
+  }
+  
+.footer-body .details form input {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding-left: 10px !important;
+    border-radius: 6px;
+  }
+  
+
+  .footer-body .details form button {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 27px;
+    height: 50px;
+    background: #07baf0;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .footer-body .details .icon i {
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background: #fff;
+	color: #07baf0;
+	font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.footer-body .details .icon i:hover {
+	background: #07baf0;
+	color: #fff;
+}
+
+
+#footer-part .footer-bottom{
+    
+    text-align: center;
+    padding: 25px 0px;
+    border-top: 1px solid #3b3b3b;
+    color: #fff;
+}
+/* ======================= footer part end ========================= */

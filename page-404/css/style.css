@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title p {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    padding: 0px 340px;
+    margin-top: 50px;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 50%;
+    background: #07baf0;
+    width: 60px;
+    height: 5px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+}
+
+/* ======================= nav bar part start ========================= */
+nav {
+    background: #fef8ff !important;
+}
+
+nav img {
+    margin-top: -55px;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 60px 25px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #848484 !important;
+    transition: .4s;
+}
+
+nav ul li:hover a {
+    color: #07baf0 !important;
+}
+
+nav .btn a {
+    padding: 13px 16px;
+    background: #07baf0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 5px;
+}
+
+nav .btn a:hover {
+    -webkit-box-shadow: -10px 0px 13px -7px , 10px 0px 13px -7px, -5px 3px 50px 5px rgba(7,186,240,0.46); 
+    box-shadow: -10px 0px 13px -7px , 10px 0px 13px -7px , -5px 3px 50px 5px rgba(7,186,240,0.46);
+}
+
+/* ======================= nav bar part end ========================= */
+/* ======================= contact part start ========================= */
+
+#contact-part {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#contact-part .title {
+    background: #fef8ff;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+#contact-part .title h2::after {
+    display: none;
+}
+
+#contact-part .title p {
+    margin-top: 0px;
+}
+
+
+#contact-part .contact {
+    padding: 90px 0px;
+}
+
+
+#contact-part .img {
+	background: url(../images/banner.png) center no-repeat;
+	padding: 240px 0px;
+	background-size: contain;
+	margin: 30px 0px;
+}
+
+#contact-part .img p {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: #374852;
+    margin-bottom: 50px;
+  }
+
+  #contact-part .button a {
+    padding: 15px 30px;
+    background: #07baf0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 5px;
+  }
+  #contact-part .button {
+    text-align: center;
+    margin-top: 50px;
+  }
+/* ======================= contact part end ========================= */

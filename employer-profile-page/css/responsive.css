@@ -1,0 +1,667 @@
+@media(min-width:320px) and (max-width:575px){
+    nav img {
+        margin-top: 0px;
+        width: 40%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 16px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 8px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+    #employer-part .employer-left .menu ul .first-li {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #ddd !important;
+    }
+
+    #employer-part .employer-left .profile {
+        display: block;
+        text-align: center;
+    }
+    
+
+    #employer-part .employer-left .profile .img {
+        width: 100%;
+    }
+    #employer-part .employer-left .profile .img .round {
+        width: 190px;
+        height: 190px;
+        margin: 0 auto;
+    }
+    #employer-part .img-details h3 {
+        margin-top: 14px;
+    }
+    #employer-part .employer-left .menu {
+        padding: 30px 0px;
+    }
+    #employer-part .employer-left .employer-text {
+        text-align: center;
+    }
+    #employer-part .employer-text p {
+        padding-right: 0px;
+    }
+
+    #employer-part .employer-text ul {
+        padding: 0;
+    }
+    #employer-part .employer-text h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #employer-part .experience h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #employer-part .experience .all-item {
+        display: block;
+    }
+    #employer-part .experience .all-item .item {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    #employer-part .experience .all-item .item .img {
+        align-self: center;
+    }
+    #employer-part .experience .all-item .item .img .round {
+        width: 75px;
+        height: 75px;
+    }
+    #employer-part .experience .all-item .item .details .text-item {
+        font-size: 14px;
+    }
+
+    #employer-part .experience .all-item:last-child {
+        margin-top: 0px;
+    }
+
+    #employer-part .portfolio h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+    #employer-part .portfolio .porfolio-item {
+        display: block;
+    }
+    #employer-part .portfolio .porfolio-item .img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #employer-part .feedback-item {
+        display: block;
+        margin-bottom: 30px;
+    }
+    #employer-part .feedback h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #employer-part .feedback-item .img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #employer-part .feedback-item .img .round {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+    }
+    #employer-part .feedback-item .details {
+        width: 100%;
+    }
+    #employer-part .feedback-item .icon {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+
+    #employer-part .employer-right {
+        padding-top: 25px;
+        border-top: 1px solid #ddd;
+        margin-top: 0;
+    }
+
+    #employer-part .employer-right .button a {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    #employer-part .employer-right .icon {
+        margin-top: 30px;
+        padding: 10px 10px;
+    }
+
+    #employer-part .employer-right .icon i {
+        margin: 5px;
+    }
+    #employer-part .employer-right .form {
+        margin-top: 30px;
+        padding: 30px 13px;
+    }
+    #employer-part .employer-right .form form h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .title h2 {
+        font-size: 22px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 13px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 30px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 14px;
+        margin-bottom: 26px;
+    }
+    #partner-part .pertner-item img {
+        width: 100%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+    #footer-part .footer-logo img {
+        width: 33%;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    nav img {
+        margin-top: 0px;
+        width: 60%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 20px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 10px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+
+
+
+
+
+    #employer-part .employer-left .menu ul .first-li {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #ddd !important;
+    }
+
+    
+
+    #employer-part .employer-left .profile .img {
+        width: 100%;
+    }
+    #employer-part .employer-left .profile .img .round {
+        width: 190px;
+        height: 190px;
+        margin: 0 auto;
+    }
+    #employer-part .img-details h3 {
+        margin-top: 14px;
+    }
+    #employer-part .employer-left .menu {
+        padding: 30px 0px;
+    }
+    
+    #employer-part .employer-text p {
+        padding-right: 0px;
+    }
+
+    #employer-part .employer-text ul {
+        padding: 0;
+    }
+    #employer-part .employer-text h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #employer-part .experience h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #employer-part .experience .all-item {
+        display: block;
+    }
+    #employer-part .experience .all-item .item {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    #employer-part .experience .all-item .item .img {
+        align-self: center;
+    }
+    
+
+    #employer-part .experience .all-item:last-child {
+        margin-top: 0px;
+    }
+
+    .portfolio .porfolio-item {
+        margin-bottom: 0px;
+    }
+    #employer-part .portfolio h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+    #employer-part .portfolio .porfolio-item .img {
+        margin-bottom: 16px;
+    }
+    #employer-part .feedback-item {
+        margin-bottom: 40px;
+    }
+    #employer-part .feedback h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    #employer-part .feedback-item .img{
+        width: 28%;
+    }
+    #employer-part .feedback-item .img .round {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+    }
+    #employer-part .feedback-item .details {
+        width: 64%;
+    }
+
+    .feedback-item .details p {
+        padding: 10px 0px;
+    }
+    #employer-part .feedback-item .icon {
+        width: 7%;
+        padding: 0;
+    }
+
+
+    #employer-part .employer-right {
+        padding-top: 25px;
+        border-top: 1px solid #ddd;
+        margin-top: 0px;
+    }
+
+    #employer-part .employer-right .icon {
+        margin-top: 30px;
+    }
+
+    
+    #employer-part .employer-right .form {
+        margin-top: 30px;
+    }
+    #employer-part .employer-right .form form h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+        
+    }
+
+
+
+
+
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 16px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 36px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 25px;
+        margin-bottom: 26px;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 15px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+
+    #employer-part .employer-left .menu ul li {
+        font-size: 18px;
+        padding: 15px 24px;
+    }
+    #employer-part .img-details {
+        width: 50%;
+        margin-left: 50px;
+    }
+
+
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        padding: 0px 6px;
+        border-radius: 8px;
+        margin-top: 23px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn{
+        padding: 0;
+        margin-top: 17px;
+    }
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+    .employer-right .button a {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .employer-right .icon {
+        margin-top: 50px;
+        padding: 4px 3px;
+    }
+    /* .employer-right .icon span{
+        margin-left: 4px;
+    } */
+    #employer-part .employer-left .menu ul li {
+        font-size: 18px;
+        padding: 15px 13px;
+    }
+    #employer-part .employer-text p {
+        font-size: 14px;
+
+    }
+    #employer-part .img-details {
+        width: 50%;
+        margin-left: 50px;
+    }
+    .experience .all-item .item .details {
+        margin-left: 32px;
+    }
+    .experience .all-item .item .img .round {
+        margin-top: 18px;
+    }
+    .feedback-item .details {
+        margin-left: 32px;
+    }
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part img{
+        margin-left: -12px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}

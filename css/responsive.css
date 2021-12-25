@@ -1,0 +1,927 @@
+@media(min-width:320px) and (max-width:575px){
+    nav img {
+        margin-top: 0px;
+        width: 40%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 16px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 8px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+
+    #banner-part .details h2 {
+        font-size: 28px;
+        padding-top: 80px !important;
+        text-align: center;
+        padding: 0 37px;
+        line-height: 38px;
+    }
+    #banner-part .details p {
+        font-size: 14px;
+        width: auto;
+        line-height: 26px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 140px;
+    }
+
+    #job-part {
+        margin-top: -40px;
+        margin-bottom: 110px;
+    }
+    #job-part .accordion-item h2 button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .job-input {
+        margin-bottom: 15px;
+    }
+
+
+    .title h2 {
+        font-size: 22px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 13px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+    #category-part .category-item {
+        padding: 25px 0px;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+    }
+    #category-part .category-item .logo img {
+        width: 12%;
+    }
+    #category-part .category-item h4 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    #category-part .category-item p {
+        font-size: 14px;
+    }
+    #category-part .category-item a {
+        padding: 8px 24px;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    #category-part .category-item:hover {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px 0px rgba(7, 186, 240, 0.42);
+    }
+
+
+    #work-part {
+        margin-top: 0px;
+        padding-top: 25px;
+padding-bottom: 0px;
+    }
+
+    #work-part .details {
+        margin-bottom: 40px;
+    }
+    #work-part .details h4 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    #work-part .details p {
+        font-size: 13px;
+        margin-top: 0px;
+        line-height: 26px;
+        padding: 5px 15px;
+    }
+
+
+    #jobs-part {
+        margin: 30px 0px;
+    }
+    #jobs-part .job-button {
+        font-size: 14px;
+    }
+    #jobs-part .form-2 {
+        margin: 12px 0px;
+    }
+    #jobs-part .form-check .text {
+        font-size: 14px;
+    }
+
+
+    #jobs-part .jobs-item {
+        display: block;
+        text-align: center;
+    }
+
+    #jobs-part .jobs-item .profile {
+        margin: 0 auto;
+        width: 85px;
+        height: 85px;
+    }
+
+    #jobs-part .jobs-item .details {
+        width: 100%;
+    }
+    #jobs-part .jobs-item .details h5 {
+        font-size: 14px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #jobs-part .jobs-item .details p {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    #jobs-part .jobs-item .details h4 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    #jobs-part .jobs-item .location {
+        width: 100%;
+    }
+
+    #jobs-part .jobs-item span {
+        font-size: 14px;
+    }
+    #jobs-part .jobs-item .amount {
+        width: 100%;
+    }
+
+    #jobs-part .jobs-item .text {
+        width: 100%;
+    }
+    #jobs-part .jobs-item .text .job-button {
+        margin-top: 12px;
+    }
+
+
+
+
+    #jobs-part .jobs-middle {
+        margin-top: 0px;
+    }
+    #jobs-part .jobs-middle .more{
+        text-align: center;
+        font-size: 14px;
+    }
+    #jobs-part .browse {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #jobs-part .jobs-bottom .details {
+        margin-top: 40px;
+    }
+    #worker-part .worker-item {
+        padding: 15px 10px;
+        margin-bottom: 20px;
+    }
+    #worker-part .worker-item .worker-item-list .right {
+        font-size: 20px;
+    }
+
+    #testi-part {
+        margin: 30px 0px;
+    }
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 30px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 14px;
+        margin-bottom: 26px;
+    }
+    #partner-part .pertner-item img {
+        width: 100%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+    #footer-part .footer-logo img {
+        width: 33%;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    nav img {
+        margin-top: 0px;
+        width: 60%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 20px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 10px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+    nav .btn a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    nav .btn a:hover {
+        box-shadow: 0px 0px 0px 0px #fff;
+    }
+
+    #banner-part .details h2 {
+        font-size: 30px;
+        padding-top: 80px !important;
+        text-align: center;
+        padding: 0 37px;
+        line-height: 38px;
+    }
+    #banner-part .details p {
+        font-size: 16px;
+        width: auto;
+        line-height: 26px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 140px;
+    }
+
+    #job-part {
+        margin-top: -40px;
+        margin-bottom: 110px;
+    }
+    #job-part .accordion-item h2 button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .job-input {
+        margin-bottom: 15px;
+    }
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+    #category-part .category-item {
+        padding: 25px 0px;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    #category-part .category-item h4 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    #category-part .category-item p {
+        font-size: 14px;
+    }
+    #category-part .category-item a {
+        padding: 8px 24px;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    #category-part .category-item:hover {
+        transform: scale(1.1);
+    }
+
+
+    #work-part {
+        margin-top: 0px;
+        padding-top: 25px;
+padding-bottom: 0px;
+    }
+
+    #work-part .details {
+        margin-bottom: 40px;
+    }
+
+    #work-part .details p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: 26px;
+        padding: 5px 15px;
+    }
+
+
+    #jobs-part {
+        margin: 30px 0px;
+    }
+    
+    #jobs-part .title {
+        margin-bottom: 0px;
+    }
+    #jobs-part .job-button {
+        font-size: 16px;
+    }
+    #jobs-part .form-2 {
+        margin: 12px 0px;
+    }
+    #jobs-part .form-check .text {
+        font-size: 14px;
+    }
+
+
+    
+    #jobs-part .jobs-item {
+        display: block;
+        text-align: center;
+    }
+
+    #jobs-part .jobs-item .profile {
+        margin: 0 auto;
+    }
+
+    #jobs-part .jobs-item .details {
+        width: 100%;
+    }
+    #jobs-part .jobs-item .details h5 {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    #jobs-part .jobs-item .details p {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    #jobs-part .jobs-item .details h4 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    #jobs-part .jobs-item .location {
+        width: 100%;
+    }
+
+    #jobs-part .jobs-item span {
+        font-size: 14px;
+    }
+    #jobs-part .jobs-item .amount {
+        width: 100%;
+    }
+
+    #jobs-part .jobs-item .text {
+        width: 100%;
+    }
+    #jobs-part .jobs-item .text .job-button {
+        margin-top: 12px;
+    }
+    #jobs-part .jobs-middle {
+        margin-top: 0px;
+    }
+    #jobs-part .jobs-middle .more p{
+        margin-top: 8px;
+    }
+
+    #jobs-part .jobs-bottom .details {
+        margin-top: 40px;
+    }
+    #worker-part .worker-item {
+        margin-bottom: 20px;
+    }
+
+    
+
+    #testi-part {
+        margin: 30px 0px;
+    }
+    #testi-part .video-text-bottom p {
+        font-size: 23px;
+    }
+
+
+
+
+
+
+
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #partner-part .counter-part .counter-item {
+        font-size: 16px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 36px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+        padding: 25px;
+        margin-bottom: 26px;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        background: #f5f5f5;
+        margin-bottom: 15px;
+        padding: 0px 15px;
+        border-radius: 8px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn{
+        padding: 0;
+    }
+
+    #banner-part .details h2 {
+        font-size: 38px;
+        padding-top: 80px !important;
+        padding: 0px;
+        line-height: 38px;
+    }
+    #banner-part .details p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 25px;
+        padding-bottom: 140px;
+    }
+
+    #job-part {
+        margin-top: -46px;
+        margin-bottom: 110px;
+    }
+    #job-part .accordion-item h2 button {
+        padding: 12px 24px;
+    }
+
+    .job-input {
+        margin-bottom: 15px;
+    }
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+
+    #category-part .category-item {
+        padding: 25px 0px;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    #category-part .category-item h4 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    #category-part .category-item p {
+        font-size: 14px;
+    }
+    #category-part .category-item a {
+        padding: 8px 24px;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    #category-part .category-item:hover {
+        transform: scale(1.1);
+    }
+
+
+    #work-part {
+        margin-top: 0px;
+        padding-top: 25px;
+padding-bottom: 0px;
+    }
+
+    #work-part .details {
+        margin-bottom: 40px;
+    }
+
+    #work-part .details p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: 26px;
+        padding: 5px 15px;
+    }
+
+
+    #jobs-part {
+        margin: 30px 0px;
+    }
+    
+    #jobs-part .title {
+        margin-bottom: 0px;
+    }
+    #jobs-part .job-button {
+        font-size: 16px;
+    }
+    #jobs-part .form-check {
+        margin-right: 15px;
+    }
+    #jobs-part .form-2 {
+        margin: 12px 0px;
+    }
+    #jobs-part .form-check .text {
+        font-size: 14px;
+    }
+
+
+
+    #jobs-part .jobs-item .profile {
+        width: 85px;
+        height: 85px;
+        margin-right: 15px;
+        align-self: center;
+    }
+    #jobs-part .jobs-item .details {
+        width: 30%;
+    }
+    #jobs-part .jobs-item .details h5 {
+        font-size: 15px;
+    }
+    #jobs-part .jobs-item .details p {
+        font-size: 18px;
+    }
+
+    #jobs-part .jobs-item .location i {
+        margin-right: 5px;
+    }
+    #jobs-part .jobs-item .text button {
+        padding: 8px 14px;
+    }
+    #jobs-part .jobs-middle {
+        margin-top: 0px;
+    }
+    #jobs-part .jobs-middle .more p{
+        margin-top: 8px;
+    }
+
+    #jobs-part .jobs-bottom .details {
+        margin-top: 40px;
+    }
+    #worker-part .worker-item {
+        margin-bottom: 20px;
+    }
+
+    
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    nav img {
+        margin-top: 0px;
+        width: 80%;
+    }
+    nav .navbar-toggler-icon i {
+        color: #07baf0;
+        font-size: 28px;
+    }
+    nav ul li {
+        /* background: #f5f5f5;
+        margin-bottom: 15px; */
+        padding: 0px 6px;
+        border-radius: 8px;
+        margin-top: 23px;
+    }
+    nav ul li a {
+        font-size: 18px;
+    }
+    nav .btn {
+        padding: 0;
+        margin-top: 17px;
+    }
+
+    #banner-part .details h2 {
+        font-size: 38px;
+        padding-top: 80px !important;
+        padding: 0px;
+        line-height: 38px;
+    }
+    #banner-part .details p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 25px;
+        padding-bottom: 140px;
+    }
+
+    #job-part {
+        margin-top: -46px;
+        margin-bottom: 110px;
+    }
+    #job-part .accordion-item h2 button {
+        padding: 12px 24px;
+    }
+
+    .job-input {
+        margin-bottom: 15px;
+    }
+
+
+    .title h2 {
+        font-size: 24px;
+    }
+    .title h2::after {
+        top: 40px;
+    }
+    .title p {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0px 80px;
+    }
+
+    #category-part .category-item {
+        padding: 25px 0px;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    #category-part .category-item h4 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    #category-part .category-item p {
+        font-size: 14px;
+    }
+    #category-part .category-item a {
+        padding: 8px 24px;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    #category-part .category-item:hover {
+        transform: scale(1.1);
+    }
+
+
+    #work-part {
+        margin-top: 0px;
+        padding-top: 25px;
+padding-bottom: 0px;
+    }
+
+    #work-part .details {
+        margin-bottom: 40px;
+    }
+
+    #work-part .details p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: 26px;
+        padding: 5px 15px;
+    }
+
+
+    #jobs-part {
+        margin: 30px 0px;
+    }
+    
+    #jobs-part .title {
+        margin-bottom: 0px;
+    }
+    #jobs-part .job-button {
+        font-size: 16px;
+    }
+    #jobs-part .form-check {
+        margin-right: 15px;
+    }
+    #jobs-part .form-2 {
+        margin: 12px 0px;
+    }
+    #jobs-part .form-check .text {
+        font-size: 14px;
+    }
+
+
+
+    #jobs-part .jobs-item .profile {
+        width: 85px;
+        height: 85px;
+        margin-right: 15px;
+        align-self: center;
+    }
+    #jobs-part .jobs-item .details {
+        width: 30%;
+    }
+    #jobs-part .jobs-item .details h5 {
+        font-size: 15px;
+    }
+    #jobs-part .jobs-item .details p {
+        font-size: 18px;
+    }
+
+    #jobs-part .jobs-item .location i {
+        margin-right: 5px;
+    }
+    #jobs-part .jobs-item .text button {
+        padding: 8px 14px;
+    }
+    #jobs-part .jobs-middle {
+        margin-top: 0px;
+    }
+    #jobs-part .jobs-middle .more p{
+        margin-top: 8px;
+    }
+
+    #jobs-part .jobs-bottom .details {
+        margin-top: 40px;
+    }
+    #worker-part .worker-item {
+        margin-bottom: 20px;
+    }
+
+    
+
+
+    #partner-part {
+        margin-bottom: 30px;
+    }
+    #partner-part img{
+        margin-left: -12px;
+    }
+    #partner-part .counter-part .counter-item {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+    #partner-part .counter-part .counter-item .counter-num {
+        font-size: 40px;
+    }
+
+    #partner-part .partner:first-child {
+        margin-top: 30px;
+    }
+    #partner-part .pertner-item {
+        width: 47%;
+    }
+
+    #footer-part .footer-logo {
+        padding: 15px 0px;
+    }
+
+    #footer-part .footer-body {
+        padding: 15px 0px;
+    }
+
+    .footer-body .details .button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-body .candi h2 {
+        font-size: 24px;
+    }
+    .footer-body .details h2 {
+        font-size: 24px;
+    }
+
+    .footer-body .details form button {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+}
